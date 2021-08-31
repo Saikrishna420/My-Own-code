@@ -1,0 +1,81 @@
+<html>
+<head><title>login</title>
+<style>
+body{
+    background-color:red;
+	
+}
+	
+h1{ 
+color:green;
+}	
+div{
+
+background-color:orange;
+color:blue;
+padding:65px;
+margin:100px;
+border-radius:60px;
+}
+input[type=text]{
+width:100px;
+padding-top:45px;
+padding-bottom:9px
+margin:19px 9;
+border radius:16px;
+}
+input[type=submit],input[type=reset]{
+width:wordrap;
+background-color:violet;
+padding:10px 9px;
+border-radius:9px
+cursor:pointer;
+
+}
+input[type=submit]:hover {
+background-color:yellow;
+}
+
+
+</style>
+</head>
+
+<body>
+<center><h1>www.Saikrishna.com</h1></center>
+<div>
+Login : 
+<form>
+<label>first name</label>
+<input type="text" name="first" placeholder="firstname">
+<label>last name</label>
+<input type="text" name="last" placeholder="lastname">
+<label>state</label>
+<select id="state">
+        <option value="Ap">AP</option>
+        <option value="kerela">kerela</option>
+        <option value="md">md</option>
+		<option value="tamil nadu">tamil nadu</option> 
+</select>
+<label>gender</label>		
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<p>please enter your feedback</p>
+<textarea cols="10" rows="10" placeholder="give your feedback">
+</textarea>
+
+<label>sign up</label>
+<input type="submit" value="submit">
+
+<input type="reset" value="reset">
+
+
+
+
+
+		
+</div>
+
+</center>
+</body>
+
+</html>
